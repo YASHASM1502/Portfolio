@@ -49,6 +49,13 @@ section {
     border-bottom: .1rem solid rgba(0,0,0,.2);
 }
 
+.home-img img {
+    width: 350px;    /* Set your desired width */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 50%;  /* Optional: make it circular */
+    object-fit: cover;   /* Ensures image is cropped nicely */
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
